@@ -1,14 +1,23 @@
+/* All */
 *{
     font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-
 }
 
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform:uppercase;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(141, 178, 231);
+}
+
+/* index.html */
 h4{
     font-style: italic;
     font-weight: 100;
 
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -16,8 +25,47 @@ h4{
     width: 50%;
   }
 
-#map{
-    border-style: solid;
-    border-width: 10px;
-    border-color: #228B22;
+#info > p{
+    float:left;
+    font-size: large;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 50%;
 }
+
+#info > h3{
+    background-color: black;
+    color: rgb(141, 178, 231);
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 50%;
+}
+
+.right{
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+  }
+
+#next_back{
+    background-color:rgb(141, 178, 231);
+}
+/* END of Index HTML*/
+
+/* History.html */
+.row img {
+    width: auto;
+    max-width:100%;
+    height: auto;
+  }
+
+  #History_Header{
+    text-align: center;
+    color: rgb(141, 178, 231);
+    background-color: black;
+  }
