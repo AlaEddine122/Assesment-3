@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<html lang="en">
   <head>
+    <title>CA3 WEBDEV</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="styles.css">
@@ -9,15 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand">Boumerdes Tourist Association</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand">|Boumerdes Tourist Association|</a>
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+            data-mdb-target="#navbar01" aria-controls="navbar01" aria-expanded="false"
             aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
+        <div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="#">| Home |</a>
@@ -35,12 +37,16 @@
     <header>
       <div class="p-5 text-center">
         <h1 class="mb-3">Boumerdes, Algeria</h1>
+        <p style="color: white; font-style: italic;">Founded: February 4 1984</p>
+        <h2 class="mb-3">The city of</h2>
         <h4 class="mb-3"> Books and Beaches</h4>
       </div>
     </header>
+    
     <div id="map">
-      <hr>        
-      <iframe id = "map" class = "center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25572.312561505994!2d3.4558088323636604!3d36.75763339777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e68dcc89e5b23%3A0x84e914279405eb13!2sBoumerdes%2C%20Algeria!5e0!3m2!1sen!2suk!4v1667240912974!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <hr>
+      <h5 style="text-align:center;">Map View</h5>        
+      <iframe class = "center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25572.312561505994!2d3.4558088323636604!3d36.75763339777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e68dcc89e5b23%3A0x84e914279405eb13!2sBoumerdes%2C%20Algeria!5e0!3m2!1sen!2suk!4v1667240912974!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <hr>
     </div>
 
@@ -52,21 +58,36 @@
       
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images\bmdes.jpg" alt="Boumerdes Beach">
+          <img src="images/bmdes3.jpg" alt="Boumerdes Beach">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Image credit: Acildz</h5>
+            <p>Image has a common use license</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="images\bmdes2.jpg" alt="Bmdes beach">
+          <img src="images/bmdes2.jpg" alt="Boumerdes shore">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Image credit: Oussama aberkane (Flickr)</h5>
+            <p>Image has a common use license</p>
+          </div>
         </div>
       </div>
       
-      <a id="next_back" class="carousel-control-prev" href="#slides" data-slide="prev">
+      <a id="back" class="carousel-control-prev" href="#slides" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </a>
-      <a id= "next_back" class="carousel-control-next" href="#slides" data-slide="next">
+      <a id= "next" class="carousel-control-next" href="#slides" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
+    
     <hr>
+    
+    <div class = "photo">
+      <img class = "right" src="images/bmdes.jpg" alt="An image of the beautiful Boumerdes" width="450" height="500"> 
+    </div>
+
+    
     <div id="info">
       <h3>
         About Boumerdes
@@ -74,8 +95,78 @@
       <p>
         Boumerdes is a city on the North coast of algeria with an approximate population of 802,083 people in just a 1356 km squared area. Most of the population are young algerians pursuing degrees, opening businesses, or simply just living life and enjoying the breeze that comes from the coast of the Mediterranean Sea.
       </p>
-      <img class = "right" src="images\bmdes.jpg" alt="An image of the beautiful Boumerdes" width="450" height="5q00">
     </div>
+
+
+
+    <hr>
+
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Student Life</h4>
+        <p class="card-text">With 3 universities, Boumerdes is considered home for over 80,000 students. Students study everything ranging from Business to Medicine.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Beaches</h4>
+        <p class="card-text">Boumerdes is known for it's beautiful beaches, where students and families ocasionally go to spend some time.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">People</h4>
+        <p class="card-text">The people in Boumerdes are known for their generosity and friendliness. The majority of the population are muslims and they are very accepting and welcoming of everyone regardless of ethnicity or religion. They are all either working, studying, and oftentimes both.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+
+  <div class="align-items-center video">
+
+    <h4>Drone footage of Boumerdes.</h4>
+    <video width="700" controls>
+      <source src="images/Drone_Footage.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+    
+    <p style="color:white;">
+    Video courtesy of 
+    <a href="https://www.youtube.com/channel/UC6JBDovEGF7ad75tVTIbiYQ">MDgraphy</a>.
+    </p>
+  </div>
+
+  <hr>
+  
+  <nav aria-label="pages">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="history.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="visit.html">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="history.html">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgb(141, 178, 231); color: black;">
+      © 2022 Copyright:
+      <a class="text-dark" href="index.html">Boumerdes Tourist Association</a>
+      <p>
+        All images used on this website have a common use license (free to use for the public).
+      </p>
+      <p>
+        Credit was still given in image description.
+      </p>
+    </div>
+  </footer>
 
   </body>
 </html>
