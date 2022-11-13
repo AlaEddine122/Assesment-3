@@ -1,6 +1,10 @@
 # Assesment-3
-Task 10:The client would like a report on your design decisionsfor the site. 
-Include a readme.md file in your Gitrepository that covers these topics:
-• Why you designed it like this (navigation, layout,colour choices)
-• What challenges you faced
-• Your name and student ID
+Design Decisions Report
+
+• Why I designed it like this (navigation, layout,colour choices)
+• What challenges I faced
+
+Name: Ala Eddine Boudjatit // Student ID: 52207978
+
+Considering the fact that Boumerdes is a place known for its nature and beaches, I wanted the theme of the website to reflect this. I chose a dark green color to represent the trees and plants,
+and a lighter blue to represent the skies and the ocean. I kept this consistent for the most part, only changing it for the header on the history page, because I felt that the color black would better represent a history page which has images that are black and white. I wanted users to be able to easily navigate between pages, so I added the obvious navigation bar at the top of every page as well as bootstraps pagination at the bottom, disabling certain buttons depending on which page the user is on. The layout of the page was interesting to play with, I wanted the home page to contain enough information but not too much, so it sort of serves as a preview page for all the other pages, and on top of that I added a cool drone shot video of Boumerdes. My images were chosen based off of what the text around it was talking about, but I also wanted to make sure that I was not violating any reuse terms that they had, so I just decided to use images which have a creative commons license, meaning they are free to use for the public. As per the challenges I faced, at first I found it difficult to form a layout on the visit page which had 2 columns with a 7:5 ratio, but with the help of bootstrap I was able to bring it as close as possible to a 7:5 ratio. The next challenge was figuring out what to put on the visit page, this was my shortest page simply because there is not much to do in Boumerdes, I tried my best to add information, and even added images to the acordion (on the right column) to make it seem more exciting, with all this, the page was still not filled enough, so I just added a contact form because I assumed a Tourist Agency would have one as well.
